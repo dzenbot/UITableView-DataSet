@@ -826,7 +826,7 @@ Class dzn_baseClassToSwizzleForTarget(id target)
 {
     if (!_button)
     {
-        _button = [UIButton buttonWithType:UIButtonTypeCustom];
+        _button = [UIButton buttonWithType:UIButtonTypeSystem];
         _button.translatesAutoresizingMaskIntoConstraints = NO;
         _button.backgroundColor = [UIColor clearColor];
         _button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
